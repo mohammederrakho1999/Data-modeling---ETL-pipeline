@@ -7,6 +7,6 @@ The star schema separates business process data into facts, which hold the measu
 ## ETL pipeline : 
 i created an ETL pipeline in order to collect data from json files and them inserts that data into tables ( database )  so that it can be queried by data scientist and analyst for analysis ( see the ETL.py file ).
 ## files in this repo : 
--- <p> connect.py : contains the connection scripts to the postgresql databases. </p>
--- <p>ETL.py : contains the logic behind inserting the whole dataset into the fact table and dimension tables.</p>
--- <p>sql.py : contains sql queries that creates the tables in postgresql management system and also the queries used to insert the data.</p>
+ <br> connect.py : contains the connection scripts to the postgresql databases. </br>
+ <br> ETL.py : contains the logic behind inserting the whole dataset into the fact table and dimension tables.</br>
+ <br> sql.py : contains sql queries that creates the tables in postgresql management system and also the queries used to insert the data.</br>
