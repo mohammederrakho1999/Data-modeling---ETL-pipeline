@@ -3,7 +3,7 @@ from sql import create__queries,drop__queries
 host = "localhost"
 dbname = "postgres"
 user = "postgres"
-password = "19990611"
+password = "µµµµµµµµ"
 
 def DropTable(cur,conn):
     for query in drop__queries:
